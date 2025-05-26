@@ -8,6 +8,7 @@
     "scheme": "spotlight",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
+      "bundleIdentifier": "com.kelechukwu.spotlight",
     "ios": {
       "supportsTablet": true
     },
