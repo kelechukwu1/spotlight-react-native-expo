@@ -74,7 +74,7 @@ export default function CreateScreen() {
 
     if (!selectedImage) {
         return (
-            <SafeAreaView className='flex-1'>
+            <SafeAreaView className='flex-1 bg-black'>
                 <View style={styles.container}>
                     <View style={styles.header}>
                         <TouchableOpacity onPress={() => router.back()}>

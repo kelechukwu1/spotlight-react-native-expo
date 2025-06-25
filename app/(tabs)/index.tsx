@@ -33,7 +33,7 @@ export default function Index() {
   }, 2000)
 
   return (
-    <SafeAreaView className='flex-1'>
+    <SafeAreaView className='flex-1 bg-black'>
       <View style={styles.container}>
         {/* HEADER */}
         <View style={styles.header}>

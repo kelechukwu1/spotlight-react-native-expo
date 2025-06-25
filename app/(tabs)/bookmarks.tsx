@@ -14,7 +14,7 @@ export default function Bookmarks() {
     if (bookmarkedPosts.length === 0) return <NoBookmarksFound />
 
     return (
-        <SafeAreaView className='flex-1'>
+        <SafeAreaView className='flex-1 bg-black'>
             <View style={styles.container}>
                 <View style={styles.header}>
                     <Text style={styles.headerTitle}>Bookmarks</Text>

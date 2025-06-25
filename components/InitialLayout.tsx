@@ -1,6 +1,7 @@
 import { useAuth } from '@clerk/clerk-expo'
 import { Stack, useRouter, useSegments } from 'expo-router'
 import { useEffect } from 'react'
+import { StatusBar } from 'react-native'
 
 export default function InitialLayout() {
     const { isLoaded, isSignedIn } = useAuth()
@@ -21,5 +22,10 @@ export default function InitialLayout() {
 
     if (!isLoaded) return null
 
-    return <Stack screenOptions={{ headerShown: false }} />
+    return (
+        <>
+            <StatusBar barStyle={"light-content"} />
+            <Stack screenOptions={{ headerShown: false }} />
+        </>
+    )
 }

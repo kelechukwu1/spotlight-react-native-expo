@@ -14,7 +14,7 @@ export default function Notifications() {
     if (notifications === undefined) return <Loader />
     if (notifications.length === 0) return <NoNotificationsFound />
     return (
-        <SafeAreaView className='flex-1'>
+        <SafeAreaView className='flex-1 bg-black'>
             <View style={styles.container}>
                 <View style={styles.header}>
                     <Text style={styles.headerTitle}>Notifications</Text>

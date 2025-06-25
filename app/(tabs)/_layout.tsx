@@ -16,8 +16,9 @@ export default function TabLayout() {
                     borderTopWidth: 0,
                     position: "absolute",
                     elevation: 0,
-                    height: 100,
-                    paddingTop: 12
+                    height: 80,
+                    paddingTop: 12,
+                    paddingBottom: 12
                 }
             }} >
             <Tabs.Screen

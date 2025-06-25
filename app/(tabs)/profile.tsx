@@ -56,7 +56,7 @@ export default function Profile() {
     if (!currentUser || posts === undefined) return <Loader />
 
     return (
-        <SafeAreaView className='flex-1'>
+        <SafeAreaView className='flex-1 bg-black'>
             <View style={styles.container}>
                 {/* HEADER */}
                 <View style={styles.header}>
